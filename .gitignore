@@ -1,3 +1,5 @@
+**/node_modules
+
 # servroot is typically the nginx/Kong workingdirectory when testing
 **/servroot
 
