@@ -1,6 +1,6 @@
 [submodule "kong-pongo"]
 	path = kong-pongo
-	url = https://github.com/Kong/kong-pongo.git
+	url = https://github.com/Kong/kong-pongo
 	branch = master
 [submodule "kong-plugins/kong-plugin"]
 	path = kong-plugins/kong-plugin
