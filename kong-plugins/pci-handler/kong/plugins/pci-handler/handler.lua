@@ -130,7 +130,7 @@ function PciHandler:access(conf)
     local card_data = set_card_data(card_fields_schema, req_body)
 
     -- Tokenize the card attributes
-    token = tokenize_card(conf, card_data)
+    local token = tokenize_card(conf, card_data)
 
     -- Transform the request body - replaces the card attributes with
     -- token received in the previous step
